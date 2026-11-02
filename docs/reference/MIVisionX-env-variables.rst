@@ -84,6 +84,10 @@ OpenCL configuration
         | Controls OpenCL device information reporting (useful for debugging).
       - | String — controls the verbosity of device info output
 
+    * - | ``OCL_ICD_VENDORS``
+        | Standard Khronos ICD loader variable. Directory containing ``.icd`` vendor files; points the ICD loader at the AMD OpenCL driver when it is not correctly registered in ``/etc/OpenCL/vendors/``. See the OpenCL backend troubleshooting note in :doc:`../install/MIVisionX-linux-build-and-install`.
+      - | String — path to a directory of ``.icd`` files
+
 Debugging and profiling
 ========================
 
